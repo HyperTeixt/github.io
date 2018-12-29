@@ -1,0 +1,1 @@
+$(function(){$("#built-with, .modal-close").on("click",function(t){t.preventDefault(),$("#built-with-modal").toggleClass("is-active")})}),$(window).load(function(){$("#preloader").fadeOut()});

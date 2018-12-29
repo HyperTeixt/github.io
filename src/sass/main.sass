@@ -1,0 +1,58 @@
+@charset "utf-8"
+
+
+// Set your brand colors
+$blue: #24D4CB
+
+// Update Bulma's global variables
+$family-sans-serif: "Quicksand", sans-serif
+$family-serif: "Sanchez", serif
+$primary: $blue
+
+@import "../../node_modules/bulma/bulma.sass"
+@import "mixins"
+@import url('https://fonts.googleapis.com/css?family=Sanchez|Quicksand:500')
+
+
+p
+	margin-bottom: 1em
+.title
+	font-family: $family-serif
+.hero
+	.hero-foot
+		padding-bottom: 10px
+.lnr
+	&-lg
+		font-size: 3em
+	&-md
+		font-size: 2.5em
+	&-sm
+		font-size: 2em
+.section_title
+	padding-bottom: 1em
+.bounce
+	-webkit-animation: boune 1.5s infinite
+	animation: bounce 1.5s infinite
+#about
+	#headshot
+		max-width: 200px
+		margin: 0 auto 1em
+	#resume-download
+		margin-bottom: 2em
+#built-with
+	font-size: 1.25em
+	&:hover
+		color: $white
+#preloader
+	position: fixed
+	top: 0
+	right: 0
+	bottom: 0
+	left: 0
+	z-index: 99
+	display: flex
+	justify-content: center
+	align-items: center
+	&-status
+		text-align: center
+	
