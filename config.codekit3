@@ -359,6 +359,39 @@
 		"oAP": "/.sass-cache/e4a4689bca1a5cabd4fef869f27267a20b37dcc6/title.sassc",
 		"oF": 0
 		},
+	"/android-chrome-192x192.png": {
+		"ft": 32768,
+		"iS": 3531,
+		"oA": 0,
+		"oAP": "/android-chrome-192x192.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/android-chrome-512x512.png": {
+		"ft": 32768,
+		"iS": 12063,
+		"oA": 0,
+		"oAP": "/android-chrome-512x512.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/apple-touch-icon.png": {
+		"ft": 32768,
+		"iS": 3198,
+		"oA": 0,
+		"oAP": "/apple-touch-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/CNAME": {
 		"cB": 0,
 		"ft": 8192,
@@ -375,6 +408,35 @@
 		"oAP": "/css/main-min-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"/favicon-16x16.png": {
+		"ft": 32768,
+		"iS": 298,
+		"oA": 0,
+		"oAP": "/favicon-16x16.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/favicon-32x32.png": {
+		"ft": 32768,
+		"iS": 477,
+		"oA": 0,
+		"oAP": "/favicon-32x32.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/favicon.ico",
+		"oF": 0
 		},
 	"/img/me.jpg": {
 		"ft": 16384,
@@ -1021,13 +1083,27 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/package-lock.json": {
+	"/package.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "/package-lock-min.json",
+		"oAP": "/package-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
+		},
+	"/portfolio.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/portfolio.html",
+		"oF": 0
+		},
+	"/site.webmanifest": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/site.webmanifest",
+		"oF": 0
 		},
 	"/src/js/main-min.js": {
 		"ft": 64,
@@ -1081,6 +1157,13 @@
 		"oA": 0,
 		"oAP": "/Teixeira-Resume-2019.pdf",
 		"oF": 0
+		},
+	"/yarn.lock": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/yarn.lock",
+		"oF": 0
 		}
 	},
 "hooks": [
@@ -1091,7 +1174,7 @@
 	"creationDate": 562557726.57593501,
 	"displayValue": "Portfolio Site",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-obama",
+	"iconImageName": "/apple-touch-icon.png",
 	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {

@@ -1,7 +1,5 @@
 @charset "utf-8"
 
-
-// Set your brand colors
 $blue: #24D4CB
 
 // Update Bulma's global variables
@@ -21,28 +19,50 @@ p
 .hero
 	.hero-foot
 		padding-bottom: 10px
-.lnr
-	&-lg
-		font-size: 3em
-	&-md
-		font-size: 2.5em
-	&-sm
-		font-size: 2em
+i
+	display: block
+.about__buttons
+	.secondary-btn
+		width: 100px
+	@include tablet
+		#portfolio-btn
+			float: left
+		#blog-btn
+			float: right
 .section_title
 	padding-bottom: 1em
 .bounce
 	-webkit-animation: boune 1.5s infinite
 	animation: bounce 1.5s infinite
 #about
-	#headshot
+	#headshot img
 		max-width: 200px
 		margin: 0 auto 1em
-	#resume-download
-		margin-bottom: 2em
-#built-with
-	font-size: 1.25em
-	&:hover
-		color: $white
+		border: 4px solid white
+		border-radius: 50%
+	.has-divider
+		border-bottom: 1px solid $grey-lighter
+		@include tablet
+			border-right: 1px solid $grey-lighter
+			border-bottom: none
+		
+.social-icons
+	padding: 1em 0
+	a
+		margin: 0 5px
+		color: $grey-light
+		&:hover
+			color: $grey-lighter
+		
+	.trailhead
+		fill: $grey-light
+		&:hover
+			fill: $grey-lighter
+.skills
+	margin-top: 3em
+footer
+	.footer__content
+		padding: 1em 0
 #preloader
 	position: fixed
 	top: 0
@@ -55,4 +75,25 @@ p
 	align-items: center
 	&-status
 		text-align: center
-	
+#portfolio
+	figure
+		overflow: hidden
+		&:hover figcaption, &:hover .overlay
+			opacity: 1
+		&:hover img
+			opacity: 0
+		img
+			opacity: 1
+		figcaption, .overlay
+			position: absolute
+			top: 0
+			left: 0
+			width: 100%
+			height: 100%
+		figcaption, .overlay
+			opacity: 0
+			
+		.overlay
+			background: red
+
+
