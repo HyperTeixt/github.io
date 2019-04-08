@@ -1,1 +1,1 @@
-$(function(){$("#built-with, .modal-close").on("click",function(t){t.preventDefault(),$("#built-with-modal").toggleClass("is-active")})}),$(window).load(function(){$("#preloader").fadeOut()});
+$(window).load(function(){$("#preloader").fadeOut(),$("#slide-container").twentytwenty({move_slider_on_hover:!0,no_overlay:!0})});

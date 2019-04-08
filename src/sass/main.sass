@@ -1,11 +1,13 @@
 @charset "utf-8"
 
-$blue: #24D4CB
-
-// Update Bulma's global variables
+$blue: #1A878F
+$body-size: 1.1em
 $family-sans-serif: "Quicksand", sans-serif
 $family-serif: "Sanchez", serif
 $primary: $blue
+$breadcrumb-item-color: white
+$breadcrumb-item-separator-color: white
+
 
 @import "../../node_modules/bulma/bulma.sass"
 @import "mixins"
@@ -21,14 +23,7 @@ p
 		padding-bottom: 10px
 i
 	display: block
-.about__buttons
-	.secondary-btn
-		width: 100px
-	@include tablet
-		#portfolio-btn
-			float: left
-		#blog-btn
-			float: right
+
 .section_title
 	padding-bottom: 1em
 .bounce
@@ -49,7 +44,7 @@ i
 .social-icons
 	padding: 1em 0
 	a
-		margin: 0 5px
+		margin: 0 10px
 		color: $grey-light
 		&:hover
 			color: $grey-lighter
@@ -75,25 +70,21 @@ footer
 	align-items: center
 	&-status
 		text-align: center
-#portfolio
-	figure
-		overflow: hidden
-		&:hover figcaption, &:hover .overlay
-			opacity: 1
-		&:hover img
-			opacity: 0
+.portfolio
+	.reverse .columns
+		@include tablet
+		flex-direction: row-reverse
 		img
-			opacity: 1
-		figcaption, .overlay
-			position: absolute
-			top: 0
-			left: 0
+			max-width: 350px
 			width: 100%
-			height: 100%
-		figcaption, .overlay
-			opacity: 0
-			
-		.overlay
-			background: red
-
-
+			@include tablet
+				margin-top: -145px
+#slide-container
+	position: relative
+	img
+		position: absolute
+		display: inline-block
+		top: 0
+		left: 0
+.twentytwenty-handle
+	background: $grey

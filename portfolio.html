@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A few of my favorite projects so far." />
+  <title>Tony Teixeira | Portfolio</title>
+  <link rel="stylesheet" href="css/main-min.css">
+  <link rel="stylesheet" href="css/twentytwenty.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-83020122-1"></script>
+
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'UA-83020122-1');
+  </script>
+
+</head>
+
+<body class="portfolio">
+    <div id="preloader" class="has-background-white">
+        <div id="preloader-status" class="has-text-grey-lighter">
+          <span class="lnr lnr-hourglass lnr-lg"></span>
+          <p>Loading...</p>
+        </div>
+      </div>
+  <section class="section has-background-primary">
+    <div class="container">
+      <h1 class="title has-text-white is-2">
+        Portfolio
+      </h1>
+      <h5 class="subtitle is-5 has-text-white">
+        A few of my favorite projects so far
+      </h5>
+      <nav class="breadcrumb " aria-label="breadcrumbs">
+          <ul>
+            <li>
+              <a href="/">
+                <span class="icon is-small">
+                  <i class="fas fa-home" aria-hidden="true"></i>
+                </span>
+                <span>Home</span>
+              </a>
+            </li>
+           
+            <li class="is-active">
+              <a href="#">
+                
+                <span class="has-text-white">Portfolio</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+    </div>
+  </section>
+
+  
+
+  <section class="section reverse has-background-light">
+    <div class="container">
+      <h3 class="title is-3">1000 Pounds</h3>
+      <h5 class="subtitle is-5">iOS Application</h5>
+      <div class="tags">
+          <span class="tag is-dark">Swift</span>
+          <span class="tag is-dark">Realm</span>
+        </div>
+      <div class="columns">
+          <div class="column has-text-centered">
+              <img src="img/1000lbs-iphonex-mockup-700.png" class="ios-mockup"/>
+            </div>
+        <div class="column">
+          <p>A hobby project of mine that stemmed from being unable to find a good way to track my progress at the gym.
+            There were a few apps that could do what I wanted, but they either took too many steps to enter data or had
+            poorly implemented ads. I was able to get a refresher in iOS development and now have the app I want to use
+            at the gym, a win-win situation.</p>
+          
+          <div class="has-text-centered">
+            <a href="https://itunes.apple.com/us/app/1000-pounds/id1297844273?mt=8"
+              style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/en-us/badge-lrg.svg?releaseDate=2017-10-19&kind=iossoftware&bubble=ios_apps) no-repeat;width:135px;height:40px;"
+              target="_blank"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section reverse">
+      <div class="container">
+        <h3 class="title is-3">Pricing Calculator</h3>
+        <h5 class="subtitle is-5">Lightning Component</h5>
+        <div class="tags">
+            <span class="tag is-dark">Salesforce</span>
+            <span class="tag is-dark">SLDS</span>
+            <span class="tag is-dark">JavaScript</span>
+          </div>
+        <div class="columns">
+            <div class="column has-text-centered">
+                <img src="img/lc-pricing-calc.gif" class=""/>
+              </div>
+              
+          <div class="column">
+            <p>
+                A  simple pricing calculator built with the lightning component framework and SLDS. Rather than having AEs referencing outdated pricing matrices or modifying opportunity line items to see pricing, use a simple calculator throughout Salesforce.
+            </p>
+            <p>
+                Yes, the pricing is made up as I plan to make open source... eventually.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  
+    <section class="section  has-background-light">
+        <div class="container">
+          <h3 class="title is-3">Dynamic Marketo Templates</h3>
+          <h5 class="subtitle is-5">Landing Page and Email</h5>
+          <div class="tags">
+              <span class="tag is-dark">Bootstrap</span>
+              <span class="tag is-dark">Kit</span>
+              <span class="tag is-dark">HTML</span>
+              <span class="tag is-dark">Sass</span>
+            </div>
+          <div class="columns">
+              <div class="column ">
+                <div class="box">
+                <div id="slide-container" class="twentytwenty-container">
+                  <img src="img/mkto-lp-qad.png"/>
+                  <img src="img/mkto-lp-dys.png"/>
+                  
+
+                </div>
+              </div>
+              <p>
+                  Designing the implementation of Marketo at a company with four different divisions was an enjoyable challenge. If these divisions were siloed then I could have just used workspaces and partitions and called it a day. However, this was not the case since program sharing was essential for the lead generation team. Enter Marketo tokens(variables).
+                </p>
+                <p>
+                    By creating email and landing page templates that used tokens for style values, I was able to segment divisions by folders with local tokens and have assets inside inherit the values. This structure allowed the divisions to share programs and have the branding change dynamically.
+                </p>
+              </div>
+           
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+          <div class="container">
+            <h3 class="title is-3">Coffee Passport Cards</h3>
+            <h5 class="subtitle is-5">Print Marketing</h5>
+            <div class="tags">
+                <span class="tag is-dark">InDesign</span>
+                <span class="tag is-dark">Illustrator</span>
+              </div>
+            <div class="columns">
+                <div class="column has-text-centered">
+                    <img src="img/sbux-veranda-front.jpg" class=""/>
+                  </div>
+                  <div class="column has-text-centered">
+                      <img src="img/sbux-veranda-back.jpg" class=""/>
+                    </div>
+              <div class="column is-half">
+                <p>
+                    At Starbucks, partners(employees) all have coffee passports which are small booklets that detail each coffee blend. While they are handy cheat sheets, the primary use of these passports is to write down tasting notes while doing coffee tastings. I frequently noticed regular customers asking to join tastings and always saying things like "I can't remember if I like that one." 
+                    Since I wouldn't expect customers to carry the full passport around, I had the idea to make all the coffee blends as cards that could fit into a wallet or pocket. Stores would put these out during a tasting for customers to write on and whichever partner liked the coffee the most would put their name on the back so the customer could come back at any time and discuss. I ran a local store test and had a great response from the partners, sales for the specific blend increased, and most importantly was able to create a better relationship with the customers that participated.
+                </p>
+                <p>
+                    It looks like Starbucks had the same idea a year later but as a <a href="http://passport.starbucks.com/starbucks-coffees/veranda-blend">mobile website</a>.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+    
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="js/jquery.event.move.js"></script>
+  <script src="js/jquery.twentytwenty.js"></script>
+
+  <script type="text/javascript" src="/js/main-min.js"></script>
+</body>
+
+</html>
