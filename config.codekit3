@@ -1251,6 +1251,13 @@
 		"oAP": "/Teixeira-Resume-2019.pdf",
 		"oF": 0
 		},
+	"/test.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/test.html",
+		"oF": 0
+		},
 	"/yarn.lock": {
 		"cB": 0,
 		"ft": 8192,
